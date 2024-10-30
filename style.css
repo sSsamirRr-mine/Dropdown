@@ -1,0 +1,249 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.icon {
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+header {
+    width: 1, 441px;
+    height: 64px;
+    padding: 20px 40px 20px 40px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+    background: #0C0E1866;
+    font-family: roboto;
+}
+
+.buts {
+    display: flex;
+    display: none;
+    position: absolute;
+    width: 120px;
+    height: 132px;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: none; */
+    /* background: none; */
+    transition: 1s;
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+    background: #232028;
+    font-family: roboto;
+    margin-left: -20px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    background: none;
+    color: #03030300;
+    background: #030303;
+    color: white;
+    font-family: roboto;
+}
+
+.left-head {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+}
+
+.right-head {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.vxod {
+    background: #BFAFF2;
+    width: 175px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    transition: 1s;
+    font-family: roboto;
+}
+
+.backround {
+    background: #101220;
+
+}
+
+h2 {
+    font-family: Outfit;
+
+}
+
+p {
+    font-family: Outfit;
+}
+
+.reg {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: right;
+    color: white;
+    font-family: roboto;
+    transition: 1s;
+}
+
+.reg:hover {
+    border-bottom: 2px solid white;
+}
+
+.naruto {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    gap: 1px;
+    display: flex;
+    font-family: roboto;
+}
+
+.sp:hover .buts {
+    display: flex;
+    /* transition: 1s; */
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+    background: #232028;
+    transition: 1s;
+}
+
+.naruto>img {
+    transition: 1s;
+}
+
+.sp:hover .naruto>img {
+    transform: rotate(180deg);
+
+}
+
+/* .sp:hover .button {
+    background: #030303;
+    color: white;
+} */
+
+.button:hover {
+    background-color: #BFAFF2;
+    color: black;
+    /* transition: 1s; */
+}
+
+
+.anime-perso {
+    width: 325px;
+    height: 532px;
+    padding: 24px 16px 24px 16px;
+    gap: 16px;
+    position: relative;
+    display: flex;
+
+
+}
+
+.bottom {
+    text-align: center;
+    width: 325px;
+    height: 240px;
+    border-radius: 32px;
+    background: #232028;
+    display: flex;
+    flex-direction: column;
+    margin-top: 275px;
+    justify-content: end;
+    padding-bottom: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+.anime-perso>img {
+    position: absolute;
+    display: flex;
+    right: 12%;
+}
+
+main {
+    display: flex;
+    gap: 36px;
+    padding-bottom: 125px;
+    padding-top: 117px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1, 440px;
+    height: 64px;
+    padding: 20px 40px 20px 40px;
+    background: #0C0E1866;
+    font-family: roboto;
+
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    transition: 1s;
+}
+
+li>a:hover {
+
+    border-bottom: 2px solid white;
+}
+
+.vxod:hover {
+    background-color: white;
+    color: black;
+}
